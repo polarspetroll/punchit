@@ -5,8 +5,9 @@ the program sends a bunch of tcp requests to the target, easy and useful for sim
 # UDP
 if you are interested with UDP you can simply edit the code  to UDP socket.
 # requirements
-٭socket
-٭colorize
+٭**socket**
+
+٭**colorize**
 # Installation
 $ git clone https://github.com/polarspetroll/punchit
 
