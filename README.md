@@ -8,6 +8,6 @@ if you are interested with UDP you can simply edit the code  to UDP socket.
 ٭socket
 ٭colorize
 # Installation
-$git clone github.com/polarspetroll/punchit
-$ruby punch.rb
+$ git clone github.com/polarspetroll/punchit
+$ ruby punch.rb
 
