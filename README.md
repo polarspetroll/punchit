@@ -1,13 +1,13 @@
-**PUNCHIT**
+#**PUNCHIT**
 an Automatic DDos script.
-**How it works?**
+#**How it works?**
 the program sends a bunch of tcp requests to the target, easy and useful for simple stress tests.
-**UDP**
+#**UDP**
 if you are interested with UDP you can simply edit the code line to UDP socket.
-**requirements**
+#**requirements**
 ٭socket
 ٭colorize
-**Installation**
+#**Installation**
 $git clone github.com/polarspetroll/punchit
 $ruby punch.rb
 
