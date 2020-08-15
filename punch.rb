@@ -79,7 +79,7 @@ end
       elsif check == "n" or check == "N"
         abort "please run the script one more time and correct the inputs :)".magenta.bold
 end
-puts ""
+puts " "
 puts "notic : if any error monitored or script frozen it might because of the host is down or the port is closed ".bold.green
        req_time.times {
 
