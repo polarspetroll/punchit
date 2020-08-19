@@ -1,3 +1,4 @@
+system("clear")
 require 'colorize'
 require 'socket'
 puts "
