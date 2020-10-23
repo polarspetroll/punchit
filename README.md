@@ -12,7 +12,8 @@ if you are interested with UDP you can simply edit the code  to UDP socket.
 $ gem install colorize
 ``
 ## Installation
-``$ git clone https://github.com/polarspetroll/punchit
+``
+$ git clone https://github.com/polarspetroll/punchit
 
 
 $ ruby punch.rb
