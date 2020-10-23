@@ -5,9 +5,9 @@ the program sends a bunch of tcp requests to the target, easy and useful for sim
 # UDP
 if you are interested with UDP you can simply edit the code  to UDP socket.
 # requirements
-٭**socket**
+٭**socket** (installed with ruby)
 
-٭**colorize**
+٭**colorize** (gem install colorize)
 # Installation
 $ git clone https://github.com/polarspetroll/punchit
 
