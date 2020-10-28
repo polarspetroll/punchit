@@ -13,7 +13,7 @@ $ gem install colorize
 ``
 ## Installation
 ``
-$ git clone https://github.com/polarspetroll/punchit
+$ git clone https://github.com/polarspetroll/punchit.git
 ``
 
 ``
