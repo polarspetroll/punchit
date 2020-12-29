@@ -29,7 +29,7 @@ puts "give me your target ip  :  ".red.bold
         tport=gets.chomp.to_i
       end
     if tryport > 3
-      abort "its seems that you cant undrstand  we dont have any ports less than 1 and letters , so im gonna go , BYE!!".red
+      abort "invalid port".red
     end
 
     puts "times of request : ".yellow
@@ -42,7 +42,7 @@ puts "give me your target ip  :  ".red.bold
     req_time=gets.chomp.to_i
   end
 if trytime > 3
-  abort "it seems that you cant undrstand that you cant give me less than one requests , so im gonna leave !! BYE!! :(".red
+  abort "error, invalid req times:(".red
 end
   puts " <==please check your inputs==> : ".green
   puts " host : #{thost}".bold
@@ -52,7 +52,7 @@ end
         check=gets.chomp
     checktry=0
     while   check != "Y" or check != "y" or check != "N" or check != "n"
-      checktry += 1 #the check var can be mentioned once , but i did it multiple times so its easier to be undrstand for beginners
+      checktry += 1 
       if checktry > 3
         abort "dont send me spam !! BYE!! :(".red
       end
@@ -99,4 +99,4 @@ rescue
   puts "Error : host maybe down or the selected port is closed!! ".bold.green
     exit
   end
-puts " all done ! im gonna sleep ! Bye :)".blue + " <==".white
+puts " Done!".blue + " <==".white
