@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 system("clear")
 require 'colorize'
 require 'socket'
@@ -54,7 +55,7 @@ end
     while   check != "Y" or check != "y" or check != "N" or check != "n"
       checktry += 1 
       if checktry > 3
-        abort "dont send me spam !! BYE!! :(".red
+        abort "invalid input:(".red
       end
       break if check == "Y" or check == "y" or check == "n" or check == "N"
 
